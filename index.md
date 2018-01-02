@@ -29,23 +29,17 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 
 {% comment %}
-  EVENTBRITE
-
-  This block includes the Eventbrite registration widget if
-  'eventbrite' has been set in the header.  You can delete it if you
-  are not using Eventbrite, or leave it in, since it will not be
-  displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
+UNCOMMENT WHEN READY
 {% if page.eventbrite %}
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://goo.gl/forms/1MPY0iRPQ14pIMDf1"
   frameborder="0"
   width="100%"
-  height="248px"
+  height="700px"
   scrolling="auto">
 </iframe>
 {% endif %}
-
+{% endcomment %}
 
 
 <h2 id="general">General Information</h2>
