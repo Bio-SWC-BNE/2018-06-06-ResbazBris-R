@@ -10,7 +10,7 @@ humandate: "7-9th Feb 2018"    # human-readable dates for the workshop (e.g., "F
 humantime: "8:30am-5pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-02-07      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-02-09        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Kim Keogh", "Amanda Miotto"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Kim Keogh"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Slobodan Olujic"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["hackyhour@griffith.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -253,6 +253,69 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+
+
+<h2><a name="links">Links for classes</a></h2>
+
+<p>
+  Below are all the links to the lessons and the data used in them
+</p>
+<p>
+<p><h3>First lesson: The Unix Shell (Bash)</h3></p>
+<p></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/shell-novice/">http://swcarpentry.github.io/shell-novice/</a></p>
+<p>Data to download: <a href="http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip">http://swcarpentry.github.io/shell-novice/shell-novice-data.zip</a></p>
+<p></p>
+<p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
+<p></p>
+<p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
+<p></p>
+<p>Mac:</p>
+<p>curl -O http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
+<p>unzip shell-novice-data.zip</p>
+<p></p>
+<p>Linux:</p>
+<p>wget http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
+<p>unzip shell-novice-data.zip</p>
+
+  </p>
+   <br/>
+  <p>
+<p><h3>Second lesson: Python</h3></p>
+<p></p>
+<p>Lessons online : <a href="https://swcarpentry.github.io/python-novice-gapminder/">https://swcarpentry.github.io/python-novice-gapminder/</a></p>
+<p>Data to download: <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip</a></p>
+<p>You need to download to your computer, use the following...</p>
+ <br/> 
+<p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
+<p></p>
+<p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
+<p></p>
+<p>Mac:</p>
+<p>curl -O https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip/p>
+<p>unzip python-novice-gapminder-data.zip</p>
+<p></p>
+<p>Linux:</p>
+<p>wget https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip</p>
+<p>unzip python-novice-gapminder-data.zip</p>
+
+  </p>
+  <br/>
+  <p>
+<p><h3>Third lesson: Git</h3></p>
+<p></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/git-novice/">http://swcarpentry.github.io/git-novice/</a></p>
+  </p>
+  <br/>
+  <p>
+<p><h3>Forth lesson: SQL</h3></p>
+<p></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/sql-novice-survey/">http://swcarpentry.github.io/sql-novice-survey/</a></p>
+<p>Data to download: <a href="https://github.com/swcarpentry/sql-novice-survey/raw/gh-pages/files/survey.db">https://github.com/swcarpentry/sql-novice-survey/raw/gh-pages/files/survey.db</a></p>
+  </p>
+  <br/>
+
+
 
 <h2 id="setup">Setup</h2>
 
