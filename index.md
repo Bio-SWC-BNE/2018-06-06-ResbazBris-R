@@ -277,30 +277,29 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>Linux:</p>
 <p>wget http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
 <p>unzip shell-novice-data.zip</p>
-
-  </p>
-   <br/>
-  <p>
-<p><h3>Second lesson: Python</h3></p>
+<br/>
+<br/>
+<h3>Second Lesson: R </h3>
 <p></p>
-<p>Lessons online : <a href="https://swcarpentry.github.io/python-novice-gapminder/">https://swcarpentry.github.io/python-novice-gapminder/</a></p>
-<p>Data to download: <a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip</a></p>
-<p>You need to download to your computer, use the following...</p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-inflammation/">http://swcarpentry.github.io/r-novice-inflammation/</a></p>
+<p>Data to download: <a href="http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip">http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</a></p>
+<p>We are gong to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
  <br/> 
 <p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
 <p></p>
 <p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
 <p></p>
 <p>Mac:</p>
-<p>curl -O https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip/p>
-<p>unzip python-novice-gapminder-data.zip</p>
+<p>curl -O http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</p>
+<p>unzip r-novice-inflammation-data.zip</p>
 <p></p>
 <p>Linux:</p>
-<p>wget https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip</p>
-<p>unzip python-novice-gapminder-data.zip</p>
+<p>wget http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</p>
+<p>unzip r-novice-inflammation-data.zip</p>
+<br>
+<hr/>
 
-  </p>
-  <br/>
+<br/>
   <p>
 <p><h3>Third lesson: Git</h3></p>
 <p></p>
@@ -608,27 +607,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </div> <!-- End of 'R' section. -->
 <hr/>
 
-<div id="Important">
-<h2>Lesson R Important links, lessons and data</h2>
-<p></p>
-<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-inflammation/">http://swcarpentry.github.io/r-novice-inflammation/</a></p>
-<p>Data to download: <a href="http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip">http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</a></p>
-<p>We are gong to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
- <br/> 
-<p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
-<p></p>
-<p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
-<p></p>
-<p>Mac:</p>
-<p>curl -O http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</p>
-<p>unzip r-novice-inflammation-data.zip</p>
-<p></p>
-<p>Linux:</p>
-<p>wget http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</p>
-<p>unzip r-novice-inflammation-data.zip</p>
-<br>
-</div>
-<hr/>
 
 
 
