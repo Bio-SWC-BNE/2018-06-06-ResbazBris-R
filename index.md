@@ -264,26 +264,24 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p><h3>First lesson: The Unix Shell (Bash)</h3></p>
 <p></p>
 <p>Lessons online : <a href="http://swcarpentry.github.io/shell-novice/">http://swcarpentry.github.io/shell-novice/</a></p>
-<p>Data to download: <a href="http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip">http://swcarpentry.github.io/shell-novice/shell-novice-data.zip</a></p>
+<p>Data to download: <a href="https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv">https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</a></p>
 <p></p>
 <p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
 <p></p>
 <p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
 <p></p>
 <p>Mac:</p>
-<p>curl -O http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
-<p>unzip shell-novice-data.zip</p>
+<p>curl -O https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</p>
 <p></p>
 <p>Linux:</p>
-<p>wget http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
-<p>unzip shell-novice-data.zip</p>
+<p>wget https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</p>
 <br/>
 <br/>
 <h3>Second Lesson: R </h3>
 <p></p>
-<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-inflammation/">http://swcarpentry.github.io/r-novice-inflammation/</a></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-gapminder/">http://swcarpentry.github.io/r-novice-gapminder/</a></p>
 <p>Data to download: <a href="http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip">http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</a></p>
-<p>We are gong to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
+<p>We are going to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
  <br/> 
 <p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
 <p></p>
@@ -296,9 +294,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p>Linux:</p>
 <p>wget http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</p>
 <p>unzip r-novice-inflammation-data.zip</p>
-<br>
-<hr/>
-
+<br/>
 <br/>
   <p>
 <p><h3>Third lesson: Git</h3></p>
@@ -314,7 +310,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </p>
   <br/>
 
-
+<hr/>
 
 <h2 id="setup">Setup</h2>
 
@@ -336,6 +332,59 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+
+<div id="r"> <!-- Start of 'R' section. -->
+  <h3>R</h3>
+
+  <p>
+    <a href="http://www.r-project.org">R</a> is a programming language
+    that is especially powerful for data exploration, visualization, and
+    statistical analysis. To interact with R, we use
+    <a href="http://www.rstudio.com/">RStudio</a>.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="r-windows">Windows</h4>
+      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
+      <p>
+        Install R by downloading and running
+        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        Note that if you have separate user and admin accounts, you should run the 
+        installers as administrator (right-click on .exe file and select "Run as 
+        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        for example when installing R packages.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-macosx">Mac OS X</h4>
+      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
+      <p>
+        Install R by downloading and running
+        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-linux">Linux</h4>
+      <p>
+        You can download the binary files for your distribution
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
+        you can use your package manager (e.g. for Debian/Ubuntu
+        run <code>sudo apt-get install r-base</code> and for Fedora run
+        <code>sudo yum install R</code>).  Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+      </p>
+    </div>
+  </div>
+</div> <!-- End of 'R' section. -->
+
+
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
   <h3>The Bash Shell</h3>
@@ -555,61 +604,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-<div id="r"> <!-- Start of 'R' section. -->
-  <h3>R</h3>
-
-  <p>
-    <a href="http://www.r-project.org">R</a> is a programming language
-    that is especially powerful for data exploration, visualization, and
-    statistical analysis. To interact with R, we use
-    <a href="http://www.rstudio.com/">RStudio</a>.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="r-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
-        installers as administrator (right-click on .exe file and select "Run as 
-        administrator" instead of double-clicking). Otherwise problems may occur later, 
-        for example when installing R packages.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-macosx">Mac OS X</h4>
-      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
-      <p>
-        Install R by downloading and running
-        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="r-linux">Linux</h4>
-      <p>
-        You can download the binary files for your distribution
-        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
-        you can use your package manager (e.g. for Debian/Ubuntu
-        run <code>sudo apt-get install r-base</code> and for Fedora run
-        <code>sudo yum install R</code>).  Also, please install the
-        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-      </p>
-    </div>
-  </div>
-</div> <!-- End of 'R' section. -->
-<hr/>
-
-
-
-
 <div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
@@ -655,7 +649,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
-
-
+<br/>
+<br/>
 
 
