@@ -264,8 +264,27 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p><h3>First lesson: The Unix Shell (Bash)</h3></p>
 <p></p>
 <p>Lessons online : <a href="http://swcarpentry.github.io/shell-novice/">http://swcarpentry.github.io/shell-novice/</a></p>
-<p>Data to download: <a href="https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv">https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</a></p>
+<p>Data to download: <a href="http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip">http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</a></p>
 <p></p>
+<p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
+<p></p>
+<p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
+<p></p>
+<p>Mac:</p>
+<p>curl -O http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
+<p>unzip shell-novice-data.zip</p>
+<p></p>
+<p>Linux:</p>
+<p>wget http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</p>
+<p>unzip shell-novice-data.zip</p>
+<br/>
+<br/>
+<h3>Second Lesson: R </h3>
+<p></p>
+<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-gapminder/">http://swcarpentry.github.io/r-novice-gapminder/</a></p>
+<p>Data to download: <a href="https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv">https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</a></p>
+<p>We are going to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
+ <br/> 
 <p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
 <p></p>
 <p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
@@ -275,25 +294,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p></p>
 <p>Linux:</p>
 <p>wget https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv</p>
-<br/>
-<br/>
-<h3>Second Lesson: R </h3>
-<p></p>
-<p>Lessons online : <a href="http://swcarpentry.github.io/r-novice-gapminder/">http://swcarpentry.github.io/r-novice-gapminder/</a></p>
-<p>Data to download: <a href="http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip">http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</a></p>
-<p>We are going to download this directly into RStudio if possible however if you need to download to your computer, use the following...</p>
- <br/> 
-<p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
-<p></p>
-<p>Windows: you can download it and move it to the folder you plan on working in, then unzip it by right clicking</p>
-<p></p>
-<p>Mac:</p>
-<p>curl -O http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</p>
-<p>unzip r-novice-inflammation-data.zip</p>
-<p></p>
-<p>Linux:</p>
-<p>wget http://swcarpentry.github.io/r-novice-inflammation/files/r-novice-inflammation-data.zip</p>
-<p>unzip r-novice-inflammation-data.zip</p>
 <br/>
 <br/>
   <p>
