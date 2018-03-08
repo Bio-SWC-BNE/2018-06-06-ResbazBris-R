@@ -30,7 +30,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 {% comment %}
 <iframe
-  src="https://goo.gl/forms/1MPY0iRPQ14pIMDf1"
+  src="https://goo.gl/forms/462rk3UuNLAABMjX2"
   frameborder="0"
   width="100%"
   height="700px"
