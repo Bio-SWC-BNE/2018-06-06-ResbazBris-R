@@ -28,7 +28,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   And run 'bin/workshop_check.py' *before* committing to make sure that changes are good.
 {% endcomment %}
 
-{% comment %}
+
 <iframe
   src="https://docs.google.com/forms/d/e/1FAIpQLSd5NTcawmgTJWOkqdPisB8lfZOE9iySHlOXICmNyz8OKdR1Aw/viewform?usp=sf_link"
   frameborder="0"
@@ -36,7 +36,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   height="700px"
   scrolling="auto">
 </iframe>
-{% endcomment %}
+
 
 
 <h2 id="general">General Information</h2>
