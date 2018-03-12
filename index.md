@@ -312,13 +312,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p> 
  </p>
   <br/>
-  <p>
-<p><h3>Forth lesson: SQL</h3></p>
-<p></p>
-<p>Lessons online : <a href="http://swcarpentry.github.io/sql-novice-survey/">http://swcarpentry.github.io/sql-novice-survey/</a></p>
-<p>Data to download: <a href="https://github.com/swcarpentry/sql-novice-survey/raw/gh-pages/files/survey.db">https://github.com/swcarpentry/sql-novice-survey/raw/gh-pages/files/survey.db</a></p>
-  </p>
-  <br/>
+
 
 <hr/>
 
@@ -614,7 +608,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
-<div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
+<!--div id="sql"> {% comment %} Start of 'SQLite' section. {% endcomment %}
   <h3>SQLite</h3>
 
   <p>
@@ -659,7 +653,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
 </div> {% comment %} End of 'SQLite' section. {% endcomment %}
-<br/>
+<br/-->
 <br/>
 
 
