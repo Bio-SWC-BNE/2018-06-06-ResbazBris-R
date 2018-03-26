@@ -656,4 +656,5 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <br/-->
 <br/>
 
-
+### Troubleshooting
+<https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions>
