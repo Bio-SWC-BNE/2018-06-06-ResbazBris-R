@@ -264,7 +264,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 <p><h3>First lesson: The Unix Shell (Bash)</h3></p>
 <p></p>
 <p>Lessons online : <a href="http://swcarpentry.github.io/shell-novice/">http://swcarpentry.github.io/shell-novice/</a></p>
-<p>Data to download: <a href="http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip">http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip</a></p>
+<p>Data to download: <a href="http://swcarpentry.github.io/shell-novice/data/data-shell.zip">http://swcarpentry.github.io/shell-novice/data/data-shell.zip</a></p>
 <p></p>
 <p>Please unzip after downloading. If you are in Mac or Linux, you can use the following commands:</p>
 <p></p>
