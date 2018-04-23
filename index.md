@@ -37,7 +37,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   scrolling="auto">
 </iframe>
 {% endcomment %}
-
+<h2 id="general"><a href='https://resbaz.github.io/resbaz2018/brisbane/'>Research Bazaar Website: resbaz.github.io/resbaz2018/brisbane/</a></h2>
 
 <h2 id="general">General Information</h2>
 
