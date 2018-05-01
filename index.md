@@ -39,6 +39,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endcomment %}
 <h2 id="general"><a href='https://resbaz.github.io/resbaz2018/brisbane/'>Research Bazaar Website: resbaz.github.io/resbaz2018/brisbane/</a></h2>
 
+<h2 id="general">Registration</h2>
+
+<h3><a href="http://www.cvent.com/d/qtqbnd">To Register, click here</a><h3>
+
 <h2 id="general">General Information</h2>
 
 {% comment %}
